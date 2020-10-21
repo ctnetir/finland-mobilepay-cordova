@@ -25,7 +25,7 @@
 
 - (void)isMobilePayInstalled:(CDVInvokedUrlCommand*)command
 {
-    MobilePayCountry country = MobilePayCountry_Denmark; // TODO make multi country
+    MobilePayCountry country = MobilePayCountry_Finland; // TODO make multi country
 
     BOOL isInstalled = [[MobilePayManager sharedInstance] isMobilePayInstalled:country];
     CDVPluginResult* pluginResult = [CDVPluginResult resultWithStatus:CDVCommandStatus_OK messageAsBool:isInstalled];
@@ -55,7 +55,7 @@
     if ([self assert:(timeoutSeconds >= 0) errorMessage:@"timeoutSeconds must not be negative" command:command]) return;
     if ([self assert:(timeoutSeconds <= 1200) errorMessage:@"timeoutSeconds must not be greater than 1200s" command:command]) return;
 
-    MobilePayCountry country = MobilePayCountry_Denmark; // TODO make multi country
+    MobilePayCountry country = MobilePayCountry_Finland; // TODO make multi country
 
     [[MobilePayManager sharedInstance]
      setupWithMerchantId:merchantId
