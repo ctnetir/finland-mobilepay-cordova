@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emilbayes/cordova-mobilepay-appswitch.git"
+    "url": "git+https://github.com/ctnetir/finland-mobilepay-cordova.git"
   },
   "keywords": [
     "cordova",
@@ -31,7 +31,7 @@
   "author": "Emil Bay <github@tixz.dk>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/emilbayes/cordova-mobilepay-appswitch/issues"
+    "url": "https://github.com/ctnetir/finland-mobilepay-cordova/issues"
   },
-  "homepage": "https://github.com/emilbayes/cordova-mobilepay-appswitch#readme"
+  "homepage": "https://github.com/ctnetir/finland-mobilepay-cordova#readme"
 }
